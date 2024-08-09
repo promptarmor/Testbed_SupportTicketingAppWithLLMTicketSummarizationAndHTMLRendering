@@ -1,0 +1,33 @@
+table#convo-msgs-table {
+    width: 100%;
+    table-layout: fixed; /* without this, the width doesn't take effect. */
+}
+
+.msg-date {
+    padding-right: 10px;
+}
+
+.msg-answer-count {
+    color: gray;
+}
+
+td.msg-td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td.question-td {
+    background-color: #eeeeff;
+}
+
+td.answer-td-odd {
+    background-color: white;
+}
+
+td.answer-td-even {
+    background-color: #eeeeee;
+}
+
+img {
+    max-width: 100%;
+}

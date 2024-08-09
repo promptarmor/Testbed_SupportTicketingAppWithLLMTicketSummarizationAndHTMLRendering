@@ -1,0 +1,62 @@
+table#page-panels-container {
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+thead#page-panels-container-thead {
+    font-family: math;
+    text-decoration: underline;
+}
+
+th.page-panel-th {
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+th#page-panel-th-col1 {
+    width: 25%;
+}
+
+td.page-panel {
+    border: 1px solid black;
+}
+
+td#page-panel-td-col1 {
+    border: none;
+}
+
+table#ticket-list-table {
+    margin-top: -3px;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+td.ticket-list-td {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+td.ticket-list-td-selected {
+    border: 1.5px solid green;
+}
+
+.ticket-list-date {
+    padding-right: 10px;
+}
+
+.ticket-list-link {
+    padding-right: 10px;
+}
+
+.ticket-list-answer-count {
+    color: gray;
+}
+
+
+iframe#col2-iframe, iframe#col3-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
